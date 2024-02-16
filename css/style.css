@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital@1&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+  }
+.header-logo{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: left;
+    margin-right: 20px;
+    margin-top: 0%;
+    white-space: nowrap;
+ 
+}
+.header-info{
+    margin-left: 20px;
+}
+#footer{
+    height: 700px;
+    margin: 0px;
+}
+
+.header-content {
+	white-space: nowrap;
+}
+.textcols-header {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	
+}
+.header-content .textcols-header:first-child {
+	margin-right: 4%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url("../assets/img/фон\ шапки\ сайта.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0; 
+ padding: 0; 
+
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;  
+    word-spacing: 150px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    padding: 15px;
+    max-height: 25px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link-active{
+    text-decoration: underline;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.header-button{
+    background-color: #10284D;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header-button:hover{
+    background-color: white;
+    color: #10284D;
+}
+.clogan-name{
+    font-family: Julius Sans One;
+    font-size: 150px;
+    color: white;
+    max-width: 50px;
+    margin-bottom: 0;
+}
+.main-button{
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+    background-color: #10284D;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+}
+.explanation{
+    letter-spacing: 5px;
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.d-block-w-100{
+    width: 238px;
+    height: 150px;
+}
+.text-content{
+    color: white;
+    max-width: 370px;
+}
+.group_photo{
+    width: 75%;
+    height: 75%px;
+}
+.group_photo-1{
+    width: 75%;
+    height: 75%px;
+    margin-left: 160px;
+}
+.body-photo{
+    width: 500px;
+    height: 676px;
+    
+}
+.text-secttion{
+    font-size: 23px;
+    max-width: 700px;
+}
+.comand-photo{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.headline-1{
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    
+}
+.headline{
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.footer-content{
+    background-color: #10284D;
+}
+.footer-item{
+    margin-left: 20px;
+    font-family: Raleway, sans-serif;
+    font-size: 23px;
+}
+.group_photo{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-clogan{
+    font-family: Julius Sans One;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.footer-text{
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.footer-inform{
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    max-width: 600px;
+    text-align: center;
+}
+.head-item{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.cosial{
+    height: 80px;
+    width: 80px;
+    margin-right: 8px;
+}
+.content-main{
+    font-family: Raleway, sans-serif;
+}
+
+.head-text{
+    font-size: 27px;
+}
+.text_section-1{
+    display: flex;
+    justify-content: left;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    max-width: 760px;
+    margin-left: 20px;
+
+}
+.text_section-2{
+    display: flex;
+    justify-content: left;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    max-width: 760px;
+   margin-right: 15px;
+
+}
+.text-information{
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        z-index: 99;
+        position: relative;
+    
+    }
+.photo-content{
+    width: 238px;
+    height: 150px;
+}
+.text-content{
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+}
+.carousel-3d{
+    margin-top: 500px;
+    
+}
+
+
+
+.carousel-3d {
+    padding: 20px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.carousel-3d > * {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: right;
+}
+.carousel-3d figure {
+    margin: 0;
+    width: 40%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.carousel-3d figure img,
+.carousel-3d figure div {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.carousel-3d figure img {
+    user-select: none;
+}
+.carousel-3d figure div:not(:first-of-type),
+.carousel-3d figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.carousel-3d nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+.carousel-3d nav button {
+    flex: 0 0 auto;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #10284D;
+    background: white;
+    border: 1px solid #10284D;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+.carousel-3d nav button:hover {
+    color: #FFF;
+    background: #10284D;
+}
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	
+}
+.textcols .textcols-item:first-child {
+	margin-right: 1%;
+}
+
+.line-main{
+    width: 700px;
+    margin-left: 0;
+}
+
+.main-info {
+	white-space: nowrap;
+    margin-left: 20px;
+}
+.textcols-info {
+	white-space: normal;	
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+	
+}
+.main-info .textcols-info:first-child {
+	margin-right: 40%;
+}
+
+
+.image-main {
+	white-space: nowrap;
+	font-size: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.textcols-image {
+	white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-right: 5%;
+	font-size: 14px;
+}
+.image-main .textcols-image:last-child {
+	margin-right: 0 ;
+}
+.footer-info {
+	white-space: nowrap;
+}
+.textcols-footer {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	
+}
+.footer-info .textcols-footer:first-child {
+	margin-right: 4%;
+}

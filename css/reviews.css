@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital@1&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.header-logo{
+    height: 50px;
+    width: 75px;
+    display: flex;
+    justify-content: left;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+   
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.navigation{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;  
+    word-spacing: 150px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    padding: 15px;
+    max-height: 25px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link-active{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.header-button{
+    background-color: #10284D;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+}
+.header-button:hover{
+    background-color: white;
+    color: #10284D;
+}
+.reviews-image{
+    width: 20%;
+    height: 20%;
+}
+.reviews-text{
+    text-align: center;
+    margin: 20px;
+  
+}
+.text-rev{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.text-mini-1{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: underline;
+}
+.text-mini{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.reviews-block{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    margin-left: 75px;
+    margin-bottom: 35px;
+   
+}
+.reviews-text{
+    max-width: 800px;
+    margin-left: 255px;
+}
+.footer-content{
+    background-color: #10284D;
+    
+}
+.footer-item{
+    margin-left: 20px;
+    font-family: Raleway, sans-serif;
+    font-size: 23px;
+}
+.group_photo{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-clogan{
+    font-family: Julius Sans One;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.footer-text{
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.footer-inform{
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    max-width: 600px;
+    text-align: center;
+}
+.head-item{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.cosial{
+    height: 80px;
+    width: 80px;
+    margin-right: 8px;
+}
+.footer-info {
+	white-space: nowrap;
+}
+.textcols-footer {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	
+}
+.footer-info .textcols-footer:first-child {
+	margin-right: 4%;
+}

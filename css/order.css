@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital@1&display=swap');
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-family: Raleway, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #10284D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4482e0;
+  }
